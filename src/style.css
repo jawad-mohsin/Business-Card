@@ -1,0 +1,266 @@
+body {
+  background-color: #23252c;
+  color: white;
+  padding-top: 5%;
+}
+
+.heading {
+  text-align: center;
+}
+
+.App {
+  font-family: "Inter", sans-serif;
+  margin: 0 auto;
+  width: 317px;
+  height: 780px;
+  align-items: center;
+  justify-content: center;
+  border-color: white;
+  border-style: solid;
+  border-radius: 10px;
+  background-color: #1a1b21;
+  color: white;
+}
+
+.footer {
+  background-color: #161619;
+}
+
+.profile {
+  width: 317px;
+  height: 317px;
+  border-top-right-radius: 9px;
+  border-top-left-radius: 9px;
+}
+
+.profile--pic {
+  width: 100%;
+  height: 100%;
+  border-top-right-radius: 9px;
+  border-top-left-radius: 9px;
+}
+
+.profile--name {
+  text-align: center;
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-bottom: 0%;
+  margin-bottom: 1%;
+}
+
+.profile--title {
+  padding-top: 0px;
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #f3bf99;
+  margin: 0%;
+}
+
+.profile--website {
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.email--button {
+  border-color: #d1d5db;
+  border: 1px;
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+  text-align: center;
+  flex-direction: row;
+  margin-right: 5px;
+  padding: 9px, 13px, 9px, 11px;
+  padding-top: 20px;
+  border-radius: 6px;
+  gap: 8px;
+  width: 115px;
+  height: 34px;
+  padding: 5px 15px;
+  text-align: right;
+  background-color: #ffffff;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.linkedin--button {
+  border-color: #d1d5db;
+  border: 1px;
+  display: flex;
+  justify-content: center;
+  margin-left: 5px;
+  padding: 9px, 13px, 9px, 11px;
+  border-radius: 6px;
+  gap: 8px;
+  width: 115px;
+  height: 34px;
+  padding: 5px 15px;
+  text-align: right;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  background: #5093e2;
+  color: white;
+}
+
+.email--icon {
+  padding-top: 7px;
+  margin-right: 8px;
+  width: 12.8px;
+  height: 9.6px;
+  top: 3.2px;
+  left: 1.6px;
+  color: #1e1f26;
+}
+
+.linkedin--icon {
+  padding-top: 3px;
+  width: 13.33px;
+  height: 13.33px;
+  top: 1.33px;
+  left: 1.33px;
+  color: #ffffff;
+  width: 16px;
+  height: 16px;
+  padding: 1.33px, 1.33px, 1.33px, 1.33px;
+}
+
+.about {
+  text-align: start;
+  width: 242.71px;
+  height: 21px;
+  top: 535px;
+  left: 152px;
+  margin-left: 35px;
+  margin-bottom: 2%;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.about--text {
+  padding-top: 0px;
+  margin-top: 0%;
+  width: 247px;
+  height: 61px;
+  top: 561px;
+  left: 152px;
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #dcdcdc;
+  margin-left: 35px;
+  margin-bottom: 13%;
+}
+
+.interests {
+  width: 242.71px;
+  height: 21px;
+  top: 649px;
+  left: 152px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 35px;
+  margin-bottom: 2%;
+  margin-top: 0%;
+}
+.interests-text {
+  margin-top: 0%;
+  width: 247px;
+  height: 61px;
+  top: 675px;
+  left: 152px;
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 35px;
+  margin-bottom: 37px;
+}
+
+.foot {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 317px;
+  height: 45px;
+  top: 760px;
+  left: 116px;
+  border-radius: 0px, 0px, 10px, 10px;
+  background-color: #161619;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.twitter--icon {
+  padding-right: 20px;
+  width: 25px;
+  height: 25px;
+  top: 779px;
+  left: 189px;
+  color: #918e9b;
+}
+
+.fb--icon {
+  padding-right: 20px;
+  width: 25px;
+  height: 25px;
+  top: 779px;
+  left: 238px;
+  color: #918e9b;
+}
+
+.insta--icon {
+  padding-right: 20px;
+  width: 25px;
+  height: 25px;
+  top: 779px;
+  left: 287px;
+  color: #918e9b;
+}
+
+.git--icon {
+  width: 25px;
+  height: 25px;
+  top: 779.5px;
+  left: 335.5px;
+  color: #918e9b;
+}
